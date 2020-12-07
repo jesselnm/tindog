@@ -1,0 +1,201 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: white;
+  color: #313131;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat';
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #8f8f8f;
+}
+
+/* TITLE */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.title-h1{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Navbar */
+.navbar {
+  padding-bottom: 7rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3% 7% 2%;
+}
+
+/* iPhone Image tilt */
+.iphone-img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  top: 1%;
+  right: 30%;
+}
+
+@media (max-width: 991px){
+  
+  #title{
+    text-align: center;
+  }
+
+  .title-h1{
+    text-align: left;
+  }
+
+  .iphone-img{
+    position: static;
+    transform: rotate(0);  
+  }
+}
+
+/* FEATURES */
+#features {
+  position: relative;
+}
+
+.features-h3{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.features-row {
+  padding: 5%;
+}
+
+.features-icon {
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* TESTIMONIALS */
+#testimonials, #press {
+  background-color: #ef8172;
+}
+
+.testimonial-h2{
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.pebbles-img {
+  width: 12%;
+  border-radius: 100%;
+  margin: 3%;
+}
+
+.lady-img {
+  width: 12%;
+  border-radius: 100%;
+  margin: 3%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px 20px;
+}
+
+/* PRICING */
+
+.pricing-h2{
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.pricing-col{
+  padding: 5% 2% 0;
+}
+
+.pricing-btn{
+  width: 100%;
+}
+
+/*CALL TO ACTION*/
+
+.download-btn2{
+  margin: 3% 1%;
+}
+
+/* FOOTER */
+
+#footer{
+  margin: 6%;
+}
+
+.footer-icons{
+  padding-bottom: 1.5%;
+  margin-left: 3%;
+}
+
+.fa-twitter{
+  padding-right: 3%;
+}
+
+.fa-facebook-f{
+  padding-right: 3%;
+}
+
+.fa-instagram{
+  padding-right: 3%;
+}
+
+.fa-envelope-open-text{
+  padding-right: 3%;
+}
+
+.p-footer{
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  font-weight: 600;
+}
